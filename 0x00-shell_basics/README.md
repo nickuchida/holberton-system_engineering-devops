@@ -1,1 +1,1 @@
-# This file contains a script that prints the absolute path name of the current working directory.
+# This directory contains files of tasks that require the use of basic Shell commands.
