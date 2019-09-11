@@ -1,2 +1,2 @@
 #!/bin/bash
-mv -t | grep "[A-Z]" /tmp/u
+mv *[:uppercase:]* /tmp/u
