@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod a=x /tmp/h
+chmod -R a+X .
