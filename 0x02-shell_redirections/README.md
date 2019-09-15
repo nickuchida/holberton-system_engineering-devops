@@ -1,0 +1,1 @@
+# This project contains scripts of different commands in Shell for I/O redirections.
