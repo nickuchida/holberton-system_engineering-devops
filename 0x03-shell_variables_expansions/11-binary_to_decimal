@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((2#%d)) $BINARY
+echo $((10#%d)) $BINARY
