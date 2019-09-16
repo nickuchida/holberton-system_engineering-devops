@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -e 's/[cC]//g'
+sed 's/[cC]//g'
