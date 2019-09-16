@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'basei=10; baseo=16; DECIMAL' | bc
+echo 'basei=10; baseo=16; 16' | bc
