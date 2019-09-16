@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "ibase=2; obase=10; BINARY" | bc
+echo 'ibase=2; obase=10; 10100111001' | bc
