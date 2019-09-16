@@ -1,0 +1,1 @@
+# This project explores Shell, init files, variables, and expansions. The commands learned are printenv, set, unset, export, alias, unalias, . , source, and printf.
