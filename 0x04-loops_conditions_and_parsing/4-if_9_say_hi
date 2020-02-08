@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This script prints hi at the 9th print
 i=1
 while [ $i -le 10 ]
 do
