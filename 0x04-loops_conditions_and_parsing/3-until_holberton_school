@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script prints 10 times with a until loop
-i=1
-until [ $i -lt 10 ]
+i=0
+until [ $i -ge 10 ]
 do
     echo 'Holberton School'
     let i++
