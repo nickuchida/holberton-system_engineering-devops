@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# configures a new ubuntu machine
+sudo apt-get update -y
+sudo apt-get install nginx -y
+sudo ufw allow 'Nginx HTTP'
+echo "Holberton School" > /var/www/html/index.html
+service nginx start
