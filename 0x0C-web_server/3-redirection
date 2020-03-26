@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Configure your Nginx server so that /redirect_me is redirecting to anotherpage
+sudo apt-get update -y
+sudo apt-get install nginx -y
+sudo ufw allow 'Nginx HTTP'
+echo "Holberton School" > /var/www/html/index.html
+sed -i "rewrite ^/redirect_me http://www.newdomain.com/newlocation permanent"
+service nginx start
