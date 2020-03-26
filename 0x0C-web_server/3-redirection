@@ -4,5 +4,5 @@ sudo apt-get update -y
 sudo apt-get install nginx -y
 sudo ufw allow 'Nginx HTTP'
 echo "Holberton School" > /var/www/html/index.html
-sed -i "rewrite ^/redirect_me http://www.newdomain.com/newlocation permanent"
+sed -i "/listen 80 default_server/a rewrite ^/redirect_me http://www.newdomain.com/newlocation permanent" /etc/nginx/sites-available/default
 service nginx start
